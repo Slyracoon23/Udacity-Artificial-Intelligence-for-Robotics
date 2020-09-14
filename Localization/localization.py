@@ -83,7 +83,7 @@ def init():
     world_ax.set_ylim(-2,3)
     world_ax.set_xlabel("Position")
     prob_ax.set_ylabel("Probability")
-    prob_ax.set_title("Histogram Localization With Measurements")
+    prob_ax.sejjkt_title("Histogram Localization With Measurements")
     return rects, line
 
 anim = animation.FuncAnimation(fig, update, n_cells, interval=50, init_func=init)
